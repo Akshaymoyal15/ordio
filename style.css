@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: rgb(96, 93, 93);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  padding: 10px 0;
+}
+
+.mainu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items ul {
+  list-style: none;
+}
+
+.items ul li {
+  display: inline-block;
+  margin-right: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.purchase {
+  padding: 10px 25px;
+  text-transform: capitalize;
+  background-color: white;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.hello {
+  padding: 50px;
+}
+
+.hello .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+.main h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.main span {
+  position: absolute;
+  border: var(--text);
+  top: ;
+}
+
+.main h5 {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main p {
+  color: var(--text);
+  margin-bottom: 30px;
+}
+
+.name img {
+  width: 500px;
+
+}
+
+.work {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.work .sayhello {
+  border-radius: 10px;
+  text-transform: capitalize;
+  background-color: #6244c5;
+  padding: 15px 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 50px;
+
+}
+
+.follow ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+
+}
+
+.follow ul li i {
+  border-radius: 50%;
+  background-color: lightgray;
+
+  padding: 5px;
+}
+
+.about {
+  background-color: #6244c5;
+  height: auto;
+  padding: 50px;
+}
+
+.download {
+  justify-content: center;
+  display: flex;
+  padding: 60px 0;
+  align-items: center;
+  gap: 130px;
+}
+
+.number {
+  position: relative;
+  background-color: #ffc446;
+  width: 300px;
+
+  left: ;
+}
+
+.number p {
+  margin-top: 250px;
+  margin-left: 100px;
+  margin-bottom: 60px;
+  font-size: 20px;
+
+}
+
+.number h1 {
+  position: absolute;
+  color: #6244c5;
+  font-size: 290px;
+  top: -138px;
+  left: 64px;
+  font-family: "Oswald", sans-serif;
+}
+
+.text {
+  width: 50%;
+}
+
+.number h3 {
+  position: absolute;
+  top: 299px;
+  text-align: center;
+  color: #6244c5;
+  font-size: 47px;
+  text-transform: uppercase;
+}
+
+.text h1 {
+  font-size: 35px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.aboutme {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.cv {
+  padding: 15px 30px;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.sign img {
+  width: 150px;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.area {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+
+}
+
+.left {
+  width: 50%;
+}
+
+.left h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.left h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  color: var(--text);
+}
+
+.resume {
+  padding: 15px 25px;
+  background-color: #6244c5;
+  border-radius: 10px;
+  margin-top: 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+
+}
+
+.education {
+  display: flex;
+  gap: 20px;
+}
+
+.peritmes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.per {
+  width: 33%;
+  padding: 25px;
+
+}
+
+.per p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.per i {
+  font-size: 25px;
+  padding: 10px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.btnn button {
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #6244c5;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.project {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.num {
+  position: relative;
+
+
+}
+
+.count {
+  font-size: 70px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.num p {
+  color: var(--text);
+  text-align: center;
+}
+
+.count::before {
+
+  position: absolute;
+  content: "";
+  width: 64px;
+  height: 64px;
+  background-color: #ffc448;
+  border-radius: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 6px;
+  z-index: -1;
+
+}
+
+.serv {
+  margin-top: 20px;
+  color: #6244c5;
+  font-size: 25px;
+  text-transform: capitalize;
+
+}
+
+.service {
+  margin-top: 20px;
+}
+
+.ui {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--text);
+  padding: 30px 30px;
+
+  align-items: center;
+}
+
+.ui h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.ui p {
+  color: var(--text);
+  max-width: 60%;
+}
+
+.ui i {
+  font-size: 40px;
+  color: var(--text);
+}
+
+.uino {
+  margin-right: 15px;
+}
+
+.ui:last-child {
+  border-bottom: 1px solid var(--text);
+}
+
+.ui:hover {
+  background-color: #6244c5;
+  color: white;
+  cursor: pointer;
+}
+
+.ui:hover p {
+  color: white;
+}
+
+.ui:hover i {
+  color: white;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .items {
+    display: none;
+  }
+
+  .name img {
+    width: 100%;
+
+  }
+
+  .name {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .hello {
+    padding: 20px;
+
+  }
+
+  .work {
+    justify-content: center;
+  }
+
+  .follow ul {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .download {
+    flex-direction: column;
+    padding: 0;
+    gap: 40px;
+  }
+
+  .about {
+    padding: 15px;
+  }
+
+  .text,
+  .number {
+    width: 100%;
+  }
+
+  .area {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+
+  }
+
+  .hero {
+    margin: 0;
+  }
+
+  .resume {
+    margin-left: 120px;
+  }
+
+  .btnn button {
+    padding: 15px 30px;
+  }
+
+  .peritmes {
+    margin-top: 10px;
+
+  }
+
+  .area p {
+    font-size: 18px;
+  }
+
+  .count {
+    text-align: center;
+  }
+
+  .num {
+    width: 45%;
+  }
+
+  .project {
+    margin-top: 20px;
+
+
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .ui {
+    flex-direction: column;
+    padding: 20px 28px;
+
+
+  }
+
+  .ui p {
+    margin-top: 10px;
+    max-width: 100%;
+  }
+
+  .serv {
+    text-align: center;
+  }
+}
